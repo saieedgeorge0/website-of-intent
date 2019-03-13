@@ -1,0 +1,196 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.header {
+    background: #253165;
+    color: white;
+    height: 125px;
+    font-family: 'Lora';
+    position: relative;
+}
+
+.logocontainer {
+    padding: 27px 150px 0;
+}
+
+.logo {
+    height: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.name {
+    display: inline-block;
+    text-align: center;
+    margin-top: -2px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.firstname {
+    font-size: 30px;
+}
+
+.lastname {
+    display: block;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 4px;
+    letter-spacing: 2.6px;
+}
+
+.links {
+    font-family: 'Fira Sans';
+    color: #8BAECF;
+    font-weight: 300;
+    font-size: 15.5px;
+    position: absolute;
+    right: 150px;
+    bottom: 30px;
+}
+
+.toplink {
+    font-style: italic;
+    color: #FAEE8F;
+    margin: 0 17px;
+    letter-spacing: 0.3px;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.toplink:hover {
+    color: #EAA800;
+}
+
+.search {
+    font-size: 13px;
+    font-style: italic;
+    width: 135px;
+    background: #02134A;
+    border: none;
+    padding: 4px;
+    padding-left: 5px;
+}
+
+.searchicon {
+    height: 21px;
+    margin-left: 5px;
+    fill: #8BAECF;
+}
+
+.homeicon {
+    height: 12px;
+    margin-top: -4px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.navbarr {
+    height: 53px;
+    border-radius: 0px;
+    background-color: #255EA2;
+    text-align: center;
+    padding: 0px 152px 0;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+
+.navlink {
+    color: white;
+    padding: 13px 12px;
+    letter-spacing: 0.1px;
+    height: 100%;
+    display: inline-block;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: #891920;
+}
+
+.imgwrapper {
+    text-align: center;
+    background: #F2F2F3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.myself {
+    width: 80%;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.one, .two, .three {
+    color: white;
+    font-style: italic;
+    font-family: 'Lora';
+    font-size: 27px;
+    width: 365px;
+    padding: 20px 0;
+    margin: 0px 10px;
+    display: inline-block;
+    background-color: #891920;
+}
+
+.cards {
+    background: #E0E1E3;
+    height: 275px;
+    text-align: center;
+    font-family: 'Lora';
+    padding-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    height: 215px;
+    margin: 0 15px;
+    display: inline-block;
+    padding-top: 20px;
+    position: relative;
+}
+
+.cardtitle {
+    color: #255EA2;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.carddescription {
+    font-family: "Fira Sans";
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(78, 78, 78);
+}
+
+.cardbottom {
+    font-family: "Fira Sans";
+    height: 34px;
+    background: #F2F2F3;
+    font-style: italic;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #891920;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 5px;
+}
