@@ -143,9 +143,10 @@ a {
     font-size: 27px;
     width: 365px;
     padding: 20px 0;
-    margin: 0px 10px;
+    margin: 0px 10px 10px;
     display: inline-block;
     background-color: #891920;
+    cursor: pointer;
 }
 
 .cards {
@@ -160,7 +161,7 @@ a {
     background: white;
     width: 260px;
     height: 215px;
-    margin: 0 15px;
+    margin: 0 15px 10px;
     display: inline-block;
     padding-top: 20px;
     position: relative;
@@ -193,4 +194,5 @@ a {
     font-size: 16px;
     font-weight: 300;
     padding-top: 5px;
+    cursor: pointer;
 }
