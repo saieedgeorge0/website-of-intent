@@ -116,10 +116,15 @@ a {
     transition: background-color 0.5s ease;
 }
 
+.navlink:visited {
+    color: white;
+}
+
 .navlink:hover {
     color: white;
     background-color: #891920;
 }
+
 
 .imgwrapper {
     text-align: center;
@@ -157,6 +162,27 @@ a {
     padding-top: 30px;
 }
 
+.researchcards {
+    background: white;
+    height: 370px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contactcards {
+    background: #a8c7e0;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pubs {
+    background: #4387bd;
+    height: 230px;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .card {
     background: white;
     width: 260px;
@@ -165,6 +191,38 @@ a {
     display: inline-block;
     padding-top: 20px;
     position: relative;
+}
+
+.researchcard {
+    background: #253165;
+    width: 562px;
+    height: 325px;
+    margin: 0 8px 10px;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.contactcard {
+    background: white;
+    width: 368px;
+    height: 265px;
+    margin: 0 8px 10px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+}
+
+.pubcard {
+    background: white;
+    width: 1145px;
+    height: 190px;
+    margin: 0 8px 10px;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    text-align: left;
 }
 
 .cardtitle {
@@ -195,4 +253,83 @@ a {
     font-weight: 300;
     padding-top: 5px;
     cursor: pointer;
+}
+
+.latest {
+    color: #82afd3;
+    font-family: 'Lora';
+    font-size: 23px;
+}
+
+.viewall {
+    color: #FAEE8F;
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.posttitle {
+    color: #FAEE8F;
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    margin-top: 40px;
+}
+
+.postdate {
+    color: #82afd3;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    display: block;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.postcontent {
+    font-family: 'Fira Sans';
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    letter-spacing: 0.7px;
+}
+
+.ftpub {
+    color: #253165;
+}
+
+.viewmore, .pubtitle, .pubcontent {
+    color: #891920;
+}
+
+.pubtitle {
+    margin-bottom: 5px;
+    margin-top: 32px;
+}
+
+.pubcontent {
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.ctdirtitle {
+    color: #045ea7;
+}
+
+.footer {
+    height: 60px;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 10px;
+    background: #253165;
+    color: #82afd3;
+    font-family: 'Fira Sans';
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 15px;
 }
